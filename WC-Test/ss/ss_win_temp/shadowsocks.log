@@ -1,0 +1,45 @@
+[2019-06-04 23:39:54] Shadowsocks started (4.1.6)
+[2019-06-04 23:40:30] Shadowsocks started (4.1.6)
+[2019-06-04 23:40:34] Shadowsocks started (4.1.6)
+[2019-06-04 23:40:42] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2019-06-04 23:40:54] Shadowsocks started (4.1.6)
+[2019-06-04 23:41:02] Shadowsocks started (4.1.6)
+[2019-06-04 23:42:03] Shadowsocks started (4.1.6)
+[2019-06-04 23:42:07] Shadowsocks started (4.1.6)
+[2019-06-04 23:43:11] Shadowsocks started (4.1.6)
+[2019-06-04 23:43:12] Shadowsocks started (4.1.6)
+[2019-06-04 23:43:39] Shadowsocks started (4.1.6)
+[2019-06-04 23:43:39] Shadowsocks started (4.1.6)
+[2019-06-04 23:47:13] 95.179.234.17:12345 timed out
+[2019-06-04 23:47:13] 95.179.234.17:12345 timed out
+[2019-06-04 23:47:13] 95.179.234.17:12345 timed out
+[2019-06-04 23:47:13] 95.179.234.17:12345 timed out
+[2019-06-04 23:47:13] 95.179.234.17:12345 timed out
+[2019-06-04 23:47:13] 95.179.234.17:12345 timed out
+[2019-06-04 23:50:51] 95.179.234.17:12345 timed out
+[2019-06-04 23:54:21] 95.179.234.17:12345 timed out
+[2019-06-04 23:57:03] 95.179.234.17:12345 timed out
+[2019-06-04 23:59:12] Shadowsocks started (4.1.6)
+[2019-06-04 23:59:56] Shadowsocks started (4.1.6)
+[2019-06-04 23:59:56] Shadowsocks started (4.1.6)
+[2019-06-05 00:02:16] Shadowsocks started (4.1.6)
+[2019-06-05 00:02:16] Shadowsocks started (4.1.6)
+[2019-06-05 00:02:17] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.PortForwarder.Handler.ConnectCallback(IAsyncResult ar)
+[2019-06-05 00:02:17] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.PortForwarder.Handler.ConnectCallback(IAsyncResult ar)
+[2019-06-05 00:02:17] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.PortForwarder.Handler.ConnectCallback(IAsyncResult ar)
